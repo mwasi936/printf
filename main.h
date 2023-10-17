@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <limits.h>
-
+#include <string.h>
 typedef struct format
 {
 	char *identifier;

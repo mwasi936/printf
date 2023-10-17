@@ -12,7 +12,7 @@ char *str;
 int i;
 int length;
 
-str = va_arg(val, char);
+str = va_arg(args, *char);
 
 if (str == NULL)
 {
@@ -21,7 +21,7 @@ length = strlen(str);
 
 for (i = 0; i < length; i++)
 _putchar(str[i]);
-return (lenght);
+return (length);
 }
 
 if else

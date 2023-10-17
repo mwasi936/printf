@@ -11,7 +11,7 @@ int handle_char(va_list args)
 {
 char str;
 
-str = va_arg(va_list, int);
-_putchar(str)
+str = va_arg(args, int);
+_putchar(str);
 return (1);
 }
