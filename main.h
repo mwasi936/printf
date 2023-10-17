@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <limits.h>
-#include <string.h>
+
 typedef struct format
 {
 	char *identifier;
@@ -15,6 +15,8 @@ typedef struct format
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int _strlen(char *s);
+int _strlenc(const char *s);
 int handle_char(va_list args);
 int handle_string(va_list args);
 int handle_percent(void);
